@@ -1,0 +1,37 @@
+/* CASCADING STYLESHEET */
+html , body {
+    margin: 0px;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+header , main , footer {
+    text-align: center;
+}
+
+ .donors {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .form{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
+ header, .form, main {
+     /* espaçamentos com margem */
+     margin: 0 auto 70px auto;
+
+ }
