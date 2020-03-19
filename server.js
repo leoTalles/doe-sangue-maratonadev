@@ -43,12 +43,12 @@ server.get("/", function(req, res) {
 })
 
 server.post("/", function(req, res){
-    //pegar dados do form//
+    //pegar dados do form
     const name = req.body.name
     const email = req.body.email
     const blood = req.body.blood
 
-    //coloco valores no array//
+    //coloco valores no array
     donors.push({
         name: name,
         blood: blood,
