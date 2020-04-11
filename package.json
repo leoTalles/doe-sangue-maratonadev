@@ -4,7 +4,7 @@
   "description": "",
   "main": "scripts.js",
   "scripts": { 
-    "publish": "./node_modules/.bin/gh-pages -d public/ -d public/",
+    "publish": "./node_modules/.bin/gh-pages -d dist/ -d dist/",
     "start": "nodemon server.js"
   },
   "repository": {
