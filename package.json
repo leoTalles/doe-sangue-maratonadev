@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "scripts.js",
-  "scripts": {
+  "scripts": { 
+    "publish": "./node_modules/.bin/gh-pages -d dist/ -d dist/",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -22,5 +23,8 @@
     "nodemon": "^2.0.2",
     "nunjucks": "^3.2.1",
     "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
